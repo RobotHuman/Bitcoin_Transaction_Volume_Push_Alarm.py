@@ -110,8 +110,6 @@ def PushSound(message, sound):
 	
 while(True):	
 	trans = Transactions() + transactions_clipped
-	
-	print len(trans)
 	if len(trans)>0: 
 		trans = [i for n, i in enumerate(trans) if i not in trans[n + 1:]] 
 		
