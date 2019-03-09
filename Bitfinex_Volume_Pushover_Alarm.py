@@ -11,7 +11,7 @@ period = 1200 # in seconds
 volume_threshold = 1500 #transaction volume threshold in bitcoins.  Any time this is exceeded, you will get a push notification.
 
 Pushover_on = True #we can turn push notifications on or off
-push_interval = 600
+push_interval = 600 #minimum time between pushover messages in seconds
 sound_number = 6
 
 def SimpleJason(url): #Jason, such a simple man
