@@ -10,7 +10,7 @@ last_push_time = 0
 period = 1200 # in seconds.  We will only analyze transactions within this time frame.
 volume_threshold = 1500 #transaction volume threshold in bitcoins.  Any time this is exceeded, you will get a push notification.
 
-Pushover_on = True #we can turn push notifications on or off
+Pushover_on = True #we can turn push notifications on or off.  This won't be in use until a few more features are added.
 push_interval = 600 #minimum time between pushover messages in seconds
 sound_number = 6
 
