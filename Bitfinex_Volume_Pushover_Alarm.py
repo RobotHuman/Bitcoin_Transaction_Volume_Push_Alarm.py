@@ -9,10 +9,10 @@ last_push_time = 0
 
 
 period = 1200 # in seconds
-volume_threshold = 2 #transaction volume threshold.  Any time this is exceeded, you will get a push notification.
+volume_threshold = 1500 #transaction volume threshold.  Any time this is exceeded, you will get a push notification.
 
 Pushover_on = True #we can turn push notifications on or off
-push_interval = 60
+push_interval = 600
 sound_number = 6
 
 def SimpleJason(url): #Jason, such a simple man
