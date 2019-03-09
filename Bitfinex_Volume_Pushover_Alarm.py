@@ -7,7 +7,7 @@ transactions_clipped = []
 last_push_time = 0
 
 
-period = 1200 # in seconds
+period = 1200 # in seconds.  We will only analyze transactions within this time frame.
 volume_threshold = 1500 #transaction volume threshold in bitcoins.  Any time this is exceeded, you will get a push notification.
 
 Pushover_on = True #we can turn push notifications on or off
