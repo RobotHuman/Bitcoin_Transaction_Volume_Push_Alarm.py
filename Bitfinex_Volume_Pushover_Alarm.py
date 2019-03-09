@@ -1,6 +1,5 @@
 import time
 import datetime
-import winsound
 import urllib, urllib2
 import httplib
 import simplejson
