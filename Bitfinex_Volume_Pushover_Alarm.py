@@ -14,7 +14,8 @@ Pushover_on = True #we can turn push notifications on or off.  This won't be in 
 push_interval = 600 #minimum time between pushover messages in seconds
 sound_number = 6
 
-def SimpleJason(url): #Jason, such a simple man
+def SimpleJason(url): 
+	#Jason here simplifies simplejson
 	req = urllib2.Request(url)
 	opener = urllib2.build_opener()
 	f = opener.open(req, timeout = 10)
